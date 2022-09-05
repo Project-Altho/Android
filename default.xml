@@ -1168,11 +1168,11 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- END open-source projects -->
   
-  <!-- Remove unused AOSP repos -->
+  <!-- Remove unused AOSP repos 
   <include name="snippets/remove.xml" />
-  <!-- Add all PixelExperience repos -->
+  <!-- Add all PixelExperience repos 
   <include name="snippets/pixel.xml" />
-  <!-- All Project Altho repos -->
-  <include name="snippets/altho.xml" />
+  <!-- All Project Altho repos 
+  <include name="snippets/altho.xml" /-->
   
 </manifest>
