@@ -1168,7 +1168,7 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <include name="snippets/remove.xml" />
-  <include name="snippets/derp.xml" />
+  <include name="snippets/flexo.xml" />
   <include name="snippets/lineage.xml" />
   <!-- END open-source projects -->
 </manifest>
