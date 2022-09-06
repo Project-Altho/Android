@@ -91,7 +91,6 @@
   <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- Packages -->
-  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
