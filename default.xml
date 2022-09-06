@@ -7,6 +7,9 @@
   <default revision="refs/tags/android-13.0.0_r3"
            remote="aosp"
            sync-j="4" />
+		   
+  <remote  name="github"
+           fetch="https://github.com/" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r3" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1168,11 +1171,11 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- END open-source projects -->
   
-  <!-- Remove unused AOSP repos 
+  <!-- Remove unused AOSP repos -->
   <include name="snippets/remove.xml" />
-  <!-- Add all PixelExperience repos 
+  <!--Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
-  <!-- All Project Altho repos 
+   <!--All Project Altho repos -->
   <include name="snippets/altho.xml" /-->
   
 </manifest>

@@ -40,7 +40,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bootable/recovery" name="bootable_recovery" remote="flexo" />
-  <project path="manifest" name="Project-Altho/Android" remote="github" revision="13"/>
+  <project path="android" name="Project-Altho/Android" remote="github" revision="13"/>
 
    <!-- Device -->
   <project path="device/derp/sepolicy" name="device_derp_sepolicy" remote="derp" />
